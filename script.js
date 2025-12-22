@@ -1,5 +1,5 @@
 let whole_information = {
-  aboutme: "Hey! I'm Abdelhadi, an aspiring DevSecOps and Cybersecurity Engineer heading to uni next year. I love working with network security, system monitoring, and building secure apps. Right now I'm working on personal projects and going for my CompTIA A+ cert.",
+  aboutme: "Hey! I'm Abdelhadi, an aspiring DevSecOps and Cybersecurity Engineer heading to uni next year. I love working with network security, system monitoring, and building secure apps. Right now I'm working on personal projects and going for my CompTIA Network+ cert.",
   skills: "Python, JavaScript, VB.NET, SQL, HTML, CSS, Linux (Kali, Ubuntu), CLI, Cisco Networking, Network Analysis, System Monitoring, Basic Troubleshooting, Git, Cybersecurity Fundamentals",
   projects: "Black-Jack Game (JavaScript) - Fun interactive blackjack game I built with full game logic and a clean UI | Password Manager (Python) - Secure app for storing passwords with encryption | Personal E-Portfolio - My terminal-style portfolio site showing off my projects",
   socials: "GitHub: github.com/kokoido, LinkedIn: linkedin.com/in/abdelhadi-harchich-816098263, Instagram: instagram.com/abdelhadi_harchich, Email: hadiharchich@gmail.com",
