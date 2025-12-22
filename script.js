@@ -31,8 +31,7 @@ const ascii_art = `
     ╔═══════════════════════════════════╗
     ║     ~ ABDELHADI HARCHICH ~        ║
     ║        Portfolio Terminal         ║
-    ╚═══════════════════════════════════╝
-                     
+    ╚═══════════════════════════════════╝           
 `;
 
 function autoScroll() {
@@ -54,7 +53,7 @@ function clearDisplay() {
     const display = document.getElementById("terminal-window");
     if (display) {
         display.innerText = ascii_art;
-        display.innerText += "Welcome to my portfolio! Type 'help' if you need guidance.\n";
+        display.innerText += "Welcome to my portfolio! Type 'help' if you need guidance.";
     }
 }
 
