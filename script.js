@@ -1,12 +1,23 @@
 let whole_information = {
-  aboutme: "Hello! I'm a passionate developer exploring web technologies and cybersecurity. I love building interactive projects and learning new programming skills.",
-  skills: "JavaScript, Python, HTML, CSS, Git, Basic Cybersecurity Concepts",
-  projects: "2048 Puzzle Game, Blackjack Game, Drone Control Project, Terminal-Style Portfolio",
-  socials: "GitHub: github.com/username, LinkedIn: linkedin.com/in/username, Twitter: twitter.com/username",
-  employment: "Junior Developer (Feb 2023 to Jun 2023) at Tech Corp, Merchandiser (May 2022 to Sep 2022) at Habous Clothing Shop",
-  education: "Level 3 BTEC Computing, West Thames College (2023 to 2025), Level 2 Gateway ICT, West Thames College (2022 to 2023)",
-  cv: "CV - ABDELHADI HARCHICH\n\nEDUCATION:\n- Level 3 BTEC Computing, West Thames College (2023-2025)\n- Level 2 Gateway ICT, West Thames College (2022-2023)\n\nEXPERIENCE:\n- Junior Developer at Tech Corp (Feb 2023 - Jun 2023)\n- Merchandiser at Habous Clothing Shop (May 2022 - Sep 2022)\n\nSKILLS:\n- Web Development: JavaScript, HTML, CSS\n- Programming: Python, JavaScript\n- Version Control: Git\n- Cybersecurity: Basic Concepts\n\nPROJECTS:\n- 2048 Puzzle Game\n- Blackjack Game\n- Drone Control Project\n- Terminal-Style Portfolio\n\nFor more info, use: aboutme, skills, projects, employment, education"
+  aboutme: "Hey! I'm Abdelhadi, an aspiring DevSecOps and Cybersecurity Engineer heading to uni next year. I love working with network security, system monitoring, and building secure apps. Right now I'm working on personal projects and going for my CompTIA A+ cert.",
+  
+  skills: "Python, JavaScript, VB.NET, SQL, HTML, CSS, Linux (Kali, Ubuntu), CLI, Cisco Networking, Network Analysis, System Monitoring, Basic Troubleshooting, Git, Cybersecurity Fundamentals",
+  
+  projects: "Black-Jack Game (JavaScript) - Fun interactive blackjack game I built with full game logic and a clean UI | Password Manager (Python) - Secure app for storing passwords with encryption | Personal E-Portfolio - My terminal-style portfolio site showing off my projects",
+  
+  socials: "GitHub: github.com/kokoido, LinkedIn: linkedin.com/in/abdelhadi-harchich-816098263, Instagram: instagram.com/abdelhadi_harchich, Email: hadiharchich@gmail.com",
+  
+  employment: "Safety Steward at Amity Security (Apr 2025 to Present) - Keeping crowds safe, handling emergencies, and making sure events run smoothly | Clothing Shop Assistant at Habous Market (Apr 2022 to Sep 2022) - Helped customers, managed stock, and handled sales",
+  
+  education: "BTEC National Extended Diploma in Computing, West Thames College (2023-2025) - Triple Distinction* | GCSE English & Maths (2022-2024) - Grade 5 | Level 2 Gateway ICT (2022-2023) - Pass | Certifications: Cisco Network Basics, Intro to Cybersecurity, SoloLearn Python Developer, CompTIA A+ (In Progress)",
+  
+  achievements: "Computing and ICT Student of the Year, Cross College Award at West Thames College, Python Hackathon at Accenture London",
+  
+  cv: `CV - ABDELHADI HARCHICH
+Location: Hampton, London TW12 | Phone: +447476887276 | Email: hadiharchich@gmail.com
+GitHub: github.com/kokoido | LinkedIn: linkedin.com/in/abdelhadi-harchich-816098263`
 };
+
 
 const secretLink = "aHR0cHM6Ly95b3V0dS5iZS9kUXc0dzlXZ1hjUQ=="; // Base64 encoded rickroll link
 
