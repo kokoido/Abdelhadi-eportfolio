@@ -1,18 +1,11 @@
 let whole_information = {
   aboutme: "Hey! I'm Abdelhadi, an aspiring DevSecOps and Cybersecurity Engineer heading to uni next year. I love working with network security, system monitoring, and building secure apps. Right now I'm working on personal projects and going for my CompTIA A+ cert.",
-  
   skills: "Python, JavaScript, VB.NET, SQL, HTML, CSS, Linux (Kali, Ubuntu), CLI, Cisco Networking, Network Analysis, System Monitoring, Basic Troubleshooting, Git, Cybersecurity Fundamentals",
-  
   projects: "Black-Jack Game (JavaScript) - Fun interactive blackjack game I built with full game logic and a clean UI | Password Manager (Python) - Secure app for storing passwords with encryption | Personal E-Portfolio - My terminal-style portfolio site showing off my projects",
-  
   socials: "GitHub: github.com/kokoido, LinkedIn: linkedin.com/in/abdelhadi-harchich-816098263, Instagram: instagram.com/abdelhadi_harchich, Email: hadiharchich@gmail.com",
-  
   employment: "Safety Steward at Amity Security (Apr 2025 to Present) - Keeping crowds safe, handling emergencies, and making sure events run smoothly | Clothing Shop Assistant at Habous Market (Apr 2022 to Sep 2022) - Helped customers, managed stock, and handled sales",
-  
   education: "BTEC National Extended Diploma in Computing, West Thames College (2023-2025) - Triple Distinction* | GCSE English & Maths (2022-2024) - Grade 5 | Level 2 Gateway ICT (2022-2023) - Pass | Certifications: Cisco Network Basics, Intro to Cybersecurity, SoloLearn Python Developer, CompTIA A+ (In Progress)",
-  
   achievements: "Computing and ICT Student of the Year, Cross College Award at West Thames College, Python Hackathon at Accenture London",
-  
   cv: `CV - ABDELHADI HARCHICH
 Location: Hampton, London TW12 | Phone: +447476887276 | Email: hadiharchich@gmail.com
 GitHub: github.com/kokoido | LinkedIn: linkedin.com/in/abdelhadi-harchich-816098263`
