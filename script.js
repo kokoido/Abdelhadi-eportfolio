@@ -18,7 +18,7 @@ const ascii_art = `
  @@                                     @@ 
    @@@@@-                         =@@@@@   
      @@@@@@@.                 ~@@@@@@@"    
-      @@@@@@@=     :   -     -@@@@@@@      
+      @@@@@@@=     :   !     -@@@@@@@      
        @@@@@@@@    @@ @@    @@@@@@@@       
         @@@@@@@@   @@@@@   @@@@@@@@        
         @@@@@@@@@@@@@@@@@@@@@@@@@@@        
@@ -192,6 +192,8 @@ function main(command) {
     }
     autoScroll();
 }
+
+
 
 // Setup event listeners
 function setupEventListeners() {
