@@ -44,9 +44,71 @@ function autoScroll() {
 function displayInformation(section) {
     const display = document.getElementById("terminal-window");
     const info = whole_information[section];
-    if (display) {
-        display.innerText = info;
+    if (!display) return;
+
+    let formattedInfo = "";
+    switch (section) {
+        case "skills":
+            formattedInfo = "\n--- Skills ---\n\n";
+            const skillsList = info.split(', ');
+            skillsList.forEach(skill => {
+                formattedInfo += `  • ${skill}\n`;
+            });
+            break;
+        case "projects":
+            formattedInfo = "\n--- Projects ---\n\n";
+            const projectsList = info.split(' | ');
+            projectsList.forEach(project => {
+                const parts = project.split(' - ');
+                const title = parts[0];
+                const description = parts.slice(1).join(' - ');
+                formattedInfo += `* ${title.trim()}\n`;
+                formattedInfo += `  ${description.trim()}\n\n`;
+            });
+            break;
+        case "socials":
+            formattedInfo = "\n--- Socials ---\n\n";
+            const socialsList = info.split(', ');
+            socialsList.forEach(social => {
+                const [platform, link] = social.split(': ');
+                if (platform.toLowerCase() === 'email') {
+                    formattedInfo += `  • ${platform}: <a href="mailto:${link.trim()}">${link.trim()}</a>\n`;
+                } else {
+                    const url = link.trim().startsWith('http') ? link.trim() : `https://${link.trim()}`;
+                    formattedInfo += `  • ${platform}: <a href="${url}" target="_blank">${link.trim()}</a>\n`;
+                }
+            });
+            break;
+        case "employment":
+             formattedInfo = "\n--- Employment ---\n\n";
+             const employmentList = info.split(' | ');
+             employmentList.forEach(job => {
+                const parts = job.split(') - ');
+                const title = parts[0];
+                const details = parts.slice(1).join(') - ');
+                formattedInfo += `* ${title.trim()})\n`;
+                formattedInfo += `  ${details.trim()}\n\n`;
+             });
+             break;
+        case "education":
+            formattedInfo = "\n--- Education ---\n\n";
+            const educationList = info.split(' | ');
+            educationList.forEach(edu => {
+                formattedInfo += `  • ${edu.trim()}\n`;
+            });
+            break;
+        case "achievements":
+            formattedInfo = "\n--- Achievements ---\n\n";
+            const achievementsList = info.split(', ');
+            achievementsList.forEach(ach => {
+                formattedInfo += `  • ${ach.trim()}\n`;
+            });
+            break;
+        default:
+            formattedInfo = info + "\n";
+            break;
     }
+    display.innerHTML += formattedInfo;
 }
 
 function clearDisplay() {
@@ -91,7 +153,7 @@ function main(command) {
         case "socials":
         case "employment":
         case "education":
-            displayInformation(command);
+            displayInformation(trimmedCommand);
             break;
         case "cv":
             display.innerText += "Downloading CV...\n";

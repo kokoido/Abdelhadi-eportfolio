@@ -13,7 +13,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: monospace;
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
     overflow: hidden;
 }
@@ -31,10 +31,10 @@ body {
 .terminal-window {
     width: 600px;
     height: 350px;
-    background-color: #282a36;
-    color: #50fa7b;
+    background-color: rgba(40, 42, 54, 0.8);
+    color: #f8f8f2;
     padding: 20px;
-    border: 2px solid #50fa7b;
+    border: 2px solid #bd93f9;
     border-bottom: none;
     border-radius: 8px 8px 0 0;
     overflow-y: auto;
@@ -43,14 +43,23 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
 
+.terminal-window a {
+    color: #8be9fd;
+    text-decoration: none;
+}
+
+.terminal-window a:hover {
+    text-decoration: underline;
+}
+
 .input-line {
     width: 600px;
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    background-color: #282a36;
-    color: #50fa7b;
-    border: 2px solid #50fa7b;
+    background-color: rgba(40, 42, 54, 0.8);
+    color: #f8f8f2;
+    border: 2px solid #bd93f9;
     border-top: none;
     border-radius: 0 0 8px 8px;
     line-height: 1.4;
@@ -59,16 +68,16 @@ body {
 .prompt {
     white-space: nowrap;
     margin-right: 5px;
-    color: #50fa7b;
+    color: #bd93f9;
 }
 
 #terminal-input {
     flex: 1;
     padding: 5px 10px;
     font-family: monospace;
-    font-size: 12px;
+    font-size: 14px;
     background: transparent;
-    color: #50fa7b;
+    color: #f8f8f2;
     border: none;
     outline: none;
     line-height: 1.4;
