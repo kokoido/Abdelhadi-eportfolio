@@ -133,6 +133,7 @@ Available commands:
   ls -a         Find hidden files
   clear         Clear the screen
   help          Show this message
+  exit          Close the terminal
 `;
     if (display) {
         display.innerText += helpText;
@@ -177,12 +178,13 @@ function main(command) {
             display.innerText += "Access granted. Opening link...\n";
             display.innerText += rickrollUrl + "\n";
             display.innerText += "\nYou got rickrolled!\n";
-            setTimeout(() => {
-                window.open(rickrollUrl, '_blank');
-            }, 500);
             break;
         case "help":
             showHelp();
+            break;
+        case "exit":
+            display.innerText += "Closing terminal. Goodbye!\n";
+            window.close();
             break;
         default:
             display.innerText += "Command not found. Try 'help' for available commands.\n";
