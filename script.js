@@ -203,7 +203,7 @@ function main(command) {
             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣿⣿⣿⣿⠟⠁
                             
             
-            01001000 01101001 01111001  
+            01001100 01001111 01001100   
          decode this and enter the command!
                  
                     `;
