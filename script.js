@@ -207,6 +207,7 @@ function main(command) {
          decode this and enter the command!
                  
                     `;
+
             display.innerText += meme_face + "\n";
             break;
         case "help":
@@ -281,3 +282,5 @@ if (document.readyState === "loading") {
     setupEventListeners();
     clearDisplay();
 }
+
+//need to fix the whole information display function to make it cleaner and better formatted plus remove the dictionary 
